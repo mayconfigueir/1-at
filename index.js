@@ -1,8 +1,14 @@
-import { registerRootComponent } from 'expo';
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+</head>
+<body>
+    
+    <h1>Olá, mundo!</h1>
+    <p>Este é o meu primeiro parágrafo em HTML.</p>
 
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+</body>
+</html>
